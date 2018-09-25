@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*实现一个LazyMan，可以按照以下方式调用:
+     1) LazyMan(“Hank”)输出:
+     Hi! This is Hank!
+
+     2) LazyMan(“Hank”).sleep(10).eat(“dinner”)输出
+     Hi! This is Hank!
+     //等待10秒..
+     Wake up after 10
+     Eat dinner~
+
+     3) LazyMan(“Hank”).eat(“dinner”).eat(“supper”)输出
+     Hi This is Hank!
+     Eat dinner~
+     Eat supper~
+
+     4) LazyMan(“Hank”).sleepFirst(5).eat(“supper”)输出
+     //等待5秒
+     Wake up after 5
+     Hi This is Hank!
+     Eat supper*/
+
+
+    function LazyMan(name) {
+        function Man() {
+            setTimeout(function () {
+                console.log(` Hi! This is ${name}!`)
+            },0)
+        }
+        Man.prototype.sleep = function (time) {
+            /*setTimeout(function () {
+                console.log(`Wake up after ${time}`)
+            },time*1000)*/
+            // while
+            // while 是同步的；可以阻塞当前的线程；
+            // JS是单线程； 一个时间点只能做一件事；
+            let  curTime = new Date();
+            setTimeout(function () {
+                while(new Date()-curTime<time*1000){}
+                console.log(`Wake up after ${time}`);
+            },0)
+            return this;// this执行Man的实例；
+        };
+        Man.prototype.eat = function (food) {
+            setTimeout(function () {
+                console.log(`Eat ${food}~`);
+            },0);
+            return this;
+        };
+        Man.prototype.sleepFirst = function (t) {
+            // while 循环进行同步线程的阻塞
+            let curTime = new Date();
+            while(new Date()-curTime<t*1000){}
+            console.log(`Wake up after ${t}`);
+            return this;
+        };
+        return new Man;
+    }
+    //LazyMan("Hank")
+    //LazyMan("Hank").sleep(5).eat("dinner")
+    //LazyMan("Hank").eat("dinner").eat("supper")
+    LazyMan("Hank").sleepFirst(5).eat("supper");
+</script>
+</body>
+</html>

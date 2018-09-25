@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 1. 数组去重  ：
+    //let arr = [12,3,4,12,67,88,3];
+    // 1. indexOf
+    // 2. 对象的属性名不能重复
+    // 3. 排序，根据相邻两项是否相等；
+   /* let obj = {};
+    let ary = [];
+    for (var i = 0; i < arr.length; i++) {
+        // obj {12:12}
+        obj[arr[i]]=arr[i]
+    }
+    console.log(obj);
+    for (var k in obj) {
+        ary.push(obj[k])
+    }
+    console.log(ary);*/
+/*    let arr = [12,3,4,12,67,88,3];
+    let obj= {};
+    for (var i = 0; i < arr.length; i++) {
+        let cur = arr[i];
+        if(obj[cur] === cur){
+            // 如果这个判断成立；说明该项是重复的；
+            // 数组塌陷： 当在数组中，删除一项时，会导致后面的所有项的索引都要重新进行计算；是非常消耗浏览器的性能的；
+            //arr.splice(i,1);
+            arr[i] = arr[arr.length-1];// 让最后一项覆盖当前项；
+            arr.length--;
+            i--;
+            continue;
+        }
+        obj[cur] = cur;
+    }
+    console.log(arr);*/
+    /*let  cur = 5;
+    cur=6;*/
+
+    // 课下练习题；
+    let  ary = [{a:1,b:2},{a:1,b:3},{a:2,b:1},{a:1,b:2},{b:2,a:1}];
+
+    
+
+
+
+
+</script>
+</body>
+</html>
