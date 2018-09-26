@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 面试题 ： while : 同步阻塞线程；
+    //
+    let  arr = [{a:11,b:2},{a:1,b:3},{a:1,b:3},{a:2,b:1},{a:1,b:12},{b:2,a:1}];
+    let  obj = {};
+    //let len = arr.length;
+    // 初始化变量==> 判断是否成立==>执行循环体==>i++
+    // 1-->2 -->3--> 4--->2 -->3 -->4
+    for(let i=0;i < arr.length;i++){
+        if(obj[arr[i].a +""+ arr[i].b]){
+            arr.splice(i,1);
+            i--;
+            continue;
+        }
+       obj[arr[i].a +","+ arr[i].b] = true;
+    }
+    console.log(arr);
+
+    /* let  o = {};
+    o.a = 1;
+    o["a"] = 1;
+    let y = o["a"];
+    if(o.a){
+    }*/
+
+    // git
+    // linux命令
+    // mkdir + 文件夹
+    // touch + 文件名
+    // vi + 文件名 ===> i ==> ctrl + c  ==> :wq (保存并退出)
+    // cd  ../    cd + ./   cd  /   cd + 文件名
+    // clear : 清屏
+
+
+    // git init ： 初始化一个仓库
+    // git config --global user.name ""
+    // git config --global user.email "";
+    // git  config  --list  : 查看配置信息
+    // git  status  : 查看当前仓库的状态
+    // 分为工作区  暂存区 历史区；
+    // 工作区  暂存区  : git  add  ./ git  diff /  git  rm  --cached /git checkout  + 文件名； 将暂存区的文件拉取到本地
+    // 暂存区和历史区；
+    // git commit -m"注释"
+    // git  diff --cached
+    // git log    git  reflog: 查看所有的日志；
+
+    // 工作区和历史区
+    // git diff master
+    // git commit -a  -m""
+    // git  reset --hard  + 版本号
+
+
+    // 分支
+    // git branch  + 分支名称
+    // git checkout + 分支名称
+    // git  branch  : 查看所有的分支
+    // git merge + 分支名称；合并分支到主干；
+
+
+</script>
+</body>
+</html>
