@@ -18,8 +18,6 @@ let fs = require("fs");
 // 2. readFileSync : 是一个同步读取文件的方法
 // readFileSync(path,option)
 // 读出来的数据默认是一个JSON格式的字符串；JSON.parse;
-
-//
 /*let con = fs.readFileSync('./custom.json',"utf8");
 console.log(typeof con);
 console.log(100);*/
@@ -28,7 +26,6 @@ console.log(100);*/
 // 一个数字或一个字母都是一个buffer；
 //console.log(Buffer.from("2"));
 // 把buffer转成utf8格式的用toString；
-
 
 // fs.writeFile
 // fs.writeFile(path,data,option,callback);
@@ -41,7 +38,6 @@ fs.readFile("./custom.json","utf8",function (err,data) {
         console.log(err);
     });
 });
-
 // writeFileSync :
 //fs.writeFileSync(path,data,"utf8")
 
