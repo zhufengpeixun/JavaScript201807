@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        git clone  git地址
+        git branch  查看分支
+        git checkout  分支名
+        git status  查看更改了哪些文件
+        git add .
+        git commit -m '备注部分'
+        git push 
+
+
+        新切分支  在nrc/1010上新切分支
+        git checkout nrc/1010  先切到对应分支
+        git branch  nrc/1010_1  在本地新切了一个nrc/1010_1分支
+        git status
+        git add . 
+        git commit -m '备注'
+        git push ----------》 git push --set-upstream origin nrc/1010_1
+
+
+        合并分支
+        git checkout nrc/1010  切回到原来的分支
+        git  merge  nrc/1010_1  若由冲突（conflict）则需要手动修改冲突 
+
+
+        git checkout .    用暂存区的代码覆盖工作区
+
+
+
+        NODE
+        fs 
+        fs.readFile(path,'utf-8',(err,data)=>{}) //异步操作
+        let data = fs.readFileSync(ptha,'uft-8') // 同步
+
+        fs.writeFile(path,写入的内容,'utf-8',(err)=>{}) //异步操作
+        fs.writeFileSync(path,写入的内容,'utf-8')
+
+        fs.appendFile(path,写入的内容,'utf-8',(err)=>{}) //异步操作
+        fs.appendFileSync
+
+        path
+        __dirname : 当前文件所在文件夹的绝对路径
+        path.resolve('./1.js')
+
+        url
+        处理路径中的参数
+        url.parse(str);
+
+        mime 第三方模块
+        mime.getType(path)
+
+        http
+        http.createServer((req,res)=>{
+            req 请求信息的载体；
+            res 响应信息的载体；
+            res.end(str) //str 需要是个字符串
+        }).listen('9090',()=>{
+            console.log("服务已启动")
+        })
+
+     -->
+</body>
+</html>

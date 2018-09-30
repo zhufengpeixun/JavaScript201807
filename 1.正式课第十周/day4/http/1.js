@@ -49,6 +49,6 @@ http.createServer((req,res)=>{
             })
             break;
     }
-}).listen(8000,()=>{
+}).listen('7000',()=>{
     console.log('端口已经起来')
 })
