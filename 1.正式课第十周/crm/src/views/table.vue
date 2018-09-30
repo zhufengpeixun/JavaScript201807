@@ -56,7 +56,7 @@
                                     },
                                     on:{
                                         click: (...arg)=>{
-                                            console.log(params);
+                                            this.jump(params);
                                         }
                                     }
                                 }, '编辑'),
@@ -91,8 +91,9 @@
         created(){
             //发送ajax请求  获取table列表
             axios.get('/list?a=12').then((data)=>{
-                console.log(data);
-                this.data4 = data.data.data;
+                // console.log(data);
+                if(data.data.errorCode != 0)return;
+                this.data4 = data.data.data.reverse();
             })
         },
         methods:{
@@ -107,6 +108,11 @@
                     }
                 })
                 // console.log(obj);
+            },
+            jump(obj){
+                //实现带参数跳转
+                this.$router.push(`/info?id=${obj.row.id}`);
+                // this.$router.push({path:'/info',query:{id:obj.row.id}});
             }
         }
     }
