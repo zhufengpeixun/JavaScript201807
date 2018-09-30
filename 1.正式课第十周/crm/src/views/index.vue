@@ -1,7 +1,7 @@
 <template>
 <div>
     <Menu mode="horizontal" :theme="theme1" active-name="22" @on-select='tab'>
-        <MenuItem name="11" to='/home' target='_blank'>
+        <MenuItem name="11" to='/table' target='_blank'>
             <Icon type="android-list"></Icon>
             人物列表
         </MenuItem>

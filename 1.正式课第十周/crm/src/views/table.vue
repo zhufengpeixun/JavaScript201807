@@ -1,11 +1,11 @@
 <template>
-    <Table width="800" height="400" border :columns="columns2" :data="data4"></Table>
+    <Table width="800" height="400" border :columns="columns" :data="data4"></Table>
 </template>
 <script>
     export default {
         data () {
             return {
-                columns2: [
+                columns: [
                     {
                         title: '姓名',
                         key: 'age',

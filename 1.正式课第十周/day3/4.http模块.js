@@ -3,7 +3,7 @@ let  http = require("http");// 导入模块；
 let server = http.createServer(function (req,res) {
     // req : 请求   res : 响应；
     // 当客户端请求时，会把当前请求的请求信息放入到这个函数的第一个参数中，
-    //console.log(req.url);
+    //console.log(req.url);zh
     // 当客户端访问时，会执行；
     // 只要客户端请求一次，当前函数执行一次；
     console.log("你很帅");

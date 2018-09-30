@@ -14,10 +14,7 @@ http.createServer((req,res)=>{
     // })
     // console.log('回调函数执行');
     // res.end('<html></html>')
-    req.setTimeout(2000,()=>{
-        console.log(222222222)
-        res.end('timeout')
-    });
+    
     switch (req.url) {
         case '/':
         case '/index.html':
@@ -38,7 +35,11 @@ http.createServer((req,res)=>{
             break;
         case '/add':
             //设置响应头状态码
-            // res.statusCode = '404';
+            res.statusCode = '404';
+            req.setTimeout(2000, () => {
+                console.log(222222222)
+                res.end('timeout')
+            });
             // res.statusMessage = 'this is my 404';
             // res.end();
             break;
