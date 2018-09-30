@@ -9,7 +9,7 @@
                 columns: [
                     {
                         title: '姓名',
-                        key: 'age',
+                        key: 'name',
                         width: 200,
                         fixed: 'left'
                     },
@@ -90,14 +90,23 @@
         },
         created(){
             //发送ajax请求  获取table列表
-            axios.get('/list').then((data)=>{
+            axios.get('/list?a=12').then((data)=>{
                 console.log(data);
                 this.data4 = data.data.data;
             })
         },
         methods:{
             remove(obj){
-                this.data4.splice(obj.index,1);
+                // 先前端发起删除请求 给后台传一个 id;让后台删除该项；
+                // 后台删除成功后，再告诉前台，删除成功
+                // 前台再去删除当前项
+                axios.get('/remove',{params:{id:obj.row.id,t:12}}).then(data=>{
+                    if(data.data.errorCode == 0){
+                        // 代表后台删除成功
+                        this.data4.splice(obj.index,1);
+                    }
+                })
+                // console.log(obj);
             }
         }
     }
