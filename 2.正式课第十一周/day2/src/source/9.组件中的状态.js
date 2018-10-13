@@ -8,7 +8,7 @@ import ReactDOM from "react-dom";
 class Count extends React.Component{
     constructor(){
         super();
-        this.state = {a:{num:1}}
+        this.state = {a:1}
     }
     addCount=()=>{
         // 状态是当前组件私有的，但是不能直接更改；可以使用setState这个方法更改；
@@ -22,10 +22,14 @@ class Count extends React.Component{
         /*console.log(this.state.a);
         this.setState({a:this.state.a+1});*/
         //this.setState({a:{num:this.state.a.num+1}})
+        /*this.setState({a:this.state.a+1},function () {
+            this.setState({a:this.state.a+1});
+        });*/
+        this.setState((prevState)=>({a:prevState.a+1}));
     }
     render(){
         return  <div>
-                    <h1>{this.state.a.num}</h1>
+                    <h1>{this.state.a}</h1>
                     <button onClick={this.addCount}>+</button>
                 </div>
     }
