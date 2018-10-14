@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <div id="title"></div>
+    <div id="content"></div>
+</div>
+<script>
+    let title = document.getElementById("title");
+    let content = document.getElementById("content");
+    // 在react中；redux实现的统一的数据管理；把不同的组件的数据统一放在一个对象中；
+    let  state = {
+        title:{color:"red",text:"今天周日"},
+        content:{color:"blue",text:"周日要学习"}
+    }
+    // 渲染标题
+    function renderTitle() {
+        title.innerHTML = state.title.text;
+        title.style.color = state.title.color;
+    }
+    // 渲染内容
+    function renderContent() {
+        content.innerHTML = state.content.text;
+        content.style.color = state.content.color;
+    }
+    function renderApp() {
+        renderTitle();
+        renderContent();
+    }
+    // 在react中规定： 只有dispatch(派发) 这个方法可以更改状态；dispatch执行传一个对象；{type：自定义}
+    // 定义一个动作类型
+    const CHANGE_TITLE_TEXT = "CHANGE_TITLE_TEXT";
+    // 封装改变状态的方法dispatch；
+    function dispatch(action) {
+        switch(action.type){
+            case CHANGE_TITLE_TEXT:
+                state = {...state,title:{...state.title,text:action.text}}
+        }
+    }
+    setTimeout(function () {
+        dispatch({type:CHANGE_TITLE_TEXT,text:"今天天气好晴朗"});
+        renderApp();
+    },2000)
+    renderApp();
+
+</script>
+</body>
+</html>

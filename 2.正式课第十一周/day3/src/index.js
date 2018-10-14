@@ -1,1 +1,1 @@
-import "./source/7.react中的生命周期"
+import "./slider1/index"

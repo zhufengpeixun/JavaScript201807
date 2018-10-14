@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <div id="title"></div>
+    <div id="content"></div>
+</div>
+<script>
+    let title = document.getElementById("title");
+    let content = document.getElementById("content");
+    const CHANGE_TITLE_TEXT = "CHANGE_TITLE_TEXT";
+    function createStore(reducer) {
+        let  state;
+        // 获取状态
+        // 在createStore 返回状态，需要将状态深拷贝一次；
+        let getState = ()=>JSON.parse(JSON.stringify(state));
+        // 改变状态；
+        function dispatch(action) {
+            state = reducer(state,action);
+        }
+        // 初始化store中的状态；
+        dispatch({});
+        return {getState,dispatch}
+    }
+    // 管理员；
+    // 1.初始化状态
+    let initState = {
+        title:{color:"red",text:"今天周日"},
+        content:{color:"blue",text:"周日要学习"}
+    };
+    function reducer(state=initState,action) {
+        switch(action.type){
+            case CHANGE_TITLE_TEXT:
+                return {...state,title:{...state.title,text:action.text}}
+        }
+        return state;
+    }
+    let store = createStore(reducer);
+    function renderTitle() {
+        title.innerHTML = store.getState().title.text;
+        title.style.color = store.getState().title.color;
+    }
+
+    // 渲染内容
+    function renderContent() {
+        content.innerHTML = store.getState().content.text;
+        content.style.color = store.getState().content.color;
+    }
+    function renderApp() {
+        renderTitle();
+        renderContent();
+    }
+    setTimeout(function () {
+        store.dispatch({type:CHANGE_TITLE_TEXT,text:"今天天气好晴朗"});
+        renderApp();
+    },2000)
+    renderApp();
+
+</script>
+</body>
+</html>
