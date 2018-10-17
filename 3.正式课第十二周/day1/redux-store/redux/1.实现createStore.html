@@ -12,7 +12,7 @@
 <script>
     let title = document.getElementById("title");
     let content = document.getElementById("content");
-    const CHANGE_TITLE_TEXT = "C+HANGE_TITLE_TEXT";
+    const CHANGE_TITLE_TEXT = "CHANGE_TITLE_TEXT";
     function createStore(reducer) {
         let  state;
         // 获取状态
@@ -20,11 +20,17 @@
         let getState = ()=>JSON.parse(JSON.stringify(state));
         // 改变状态；
         function dispatch(action) {
+            // reducer是形参代表的值；实参传递；reducer代表是一个函数的空间，可以执行；唯一可以控制改变状态的方式就是reducer；就是自己定义的；
+            // 函数执行传state；
             state = reducer(state,action);
         }
         // 初始化store中的状态；
         dispatch({});
+        // 空对象是必须的；因为默认调用了一次reducer;在执行reducer时，如果不不穿对象，那么action会取到undefined值，在reducer调用了action.type；会报错；
         return {getState,dispatch}
+        // 作用域不销毁：
+        //1. 返回一个引用的数据类型
+        // 2. 返回值被外界接收或占用
     }
     // 管理员；
     // 1.初始化状态
@@ -58,6 +64,8 @@
         renderApp();
     },2000)
     renderApp();
+    // 在redux中改变数据的唯一方式dispatch；
+    // dispatch ===> reducer ===> 改变state；
 
 </script>
 </body>

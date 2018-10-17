@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <p id="container"></p>
+    <button id="add">+</button>
+    <button id="min">-</button>
+</div>
+<script src="redux.js"></script>
+<script>
+    let container = document.getElementById("container");
+    let add = document.getElementById("add");
+    let min = document.getElementById("min");
+    const ADD_COUNT = "ADD_COUNT";
+    const MIN_COUNT = "MIN_COUNT";
+    let initState = {num:0};
+    function reducer(state=initState,action) {
+        switch (action.type){
+            case ADD_COUNT:
+                return {...state,num:state.num+action.count};
+            case MIN_COUNT:
+                return {...state,num:state.num-action.count}
+        }
+        return state;
+    }
+    let store = createStore(reducer);//{getState,dispatch,subscribe}
+    function renderP() {
+        container.innerHTML = store.getState().num;
+    }
+    renderP();
+    store.subscribe(renderP);
+
+    add.onclick = function () {
+        // 必须传一个对象；这个要带有type属性；
+        store.dispatch({type:ADD_COUNT,count:1})
+    }
+    min.onclick = function () {
+        store.dispatch({type:MIN_COUNT,count:1})
+    }
+
+
+
+
+</script>
+</body>
+</html>

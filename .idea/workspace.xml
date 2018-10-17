@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99966dc3-ec76-4cd6-ad0c-0a1afa543185" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3.正式课第十二周/day1/src/store/reducer/todos.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2.正式课第十一周/day3/src/index.js" afterPath="$PROJECT_DIR$/2.正式课第十一周/day3/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2.正式课第十一周/day4/src/redux/2.实现createStore.html" afterPath="$PROJECT_DIR$/2.正式课第十一周/day4/src/redux/2.实现createStore.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,54 +18,45 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SliderDots.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/component/SliderDots.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SliderArrow.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/component/SliderArrow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Slider.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/component/Slider.js">
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/reducer/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
-              <caret line="67" column="98" lean-forward="false" selection-start-line="67" selection-start-column="98" selection-end-line="67" selection-end-column="98" />
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#54#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="counter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/reducer/counter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/reducer/todos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.Counter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/component/1.Counter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="63" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -75,41 +64,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.认识redux.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/redux/1.认识redux.html">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="47" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
+            <state relative-caret-position="92">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.实现createStore.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/redux/2.实现createStore.html">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="92">
+              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.Todo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/component/2.Todo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redux.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/redux-store/redux/redux.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/index.css">
+      <file leaf-file-name="counter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/actions/counter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1978">
-              <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="184">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SliderItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/component/SliderItem.js">
+      <file leaf-file-name="todos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/actions/todos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+            <state relative-caret-position="184">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -121,8 +134,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -137,23 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/2.自定义模块.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/1.复习.html" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/4.http模块.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/5.http模块.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/7.index.css" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/7.index.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/6.http-html.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/6.1.http-html.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/8.server-img.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/9.url.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/9.url模块.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/8.index.html" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/7.index.html" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/10.server-mime.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/11.express.js" />
-        <option value="$PROJECT_DIR$/1.正式课第十周/day3/12.expres-middleWare.js" />
-        <option value="$PROJECT_DIR$/2.正式课第十一周/day2/src/source/1.复习.js" />
         <option value="$PROJECT_DIR$/2.正式课第十一周/day2/src/source/2.循环绑定元素.js" />
         <option value="$PROJECT_DIR$/2.正式课第十一周/day2/src/source/3.clock.js" />
         <option value="$PROJECT_DIR$/2.正式课第十一周/day2/src/source/4.组件.js" />
@@ -188,6 +184,23 @@
         <option value="$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/component/Slider.js" />
         <option value="$PROJECT_DIR$/2.正式课第十一周/day4/src/redux/index.html" />
         <option value="$PROJECT_DIR$/2.正式课第十一周/day4/src/redux/2.实现createStore.html" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/1.实现createStore.html" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/redux/2.实现createStore订阅.html" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/redux/3.counter.html" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/redux/redux.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/redux/4.react的counter.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/source/1.Counter.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/store/reducer/1.counter.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/store/actions/1.counter.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/store/reducer/1.todos.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/store/actions/1.todos.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/source/2.Todo.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/index.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/store/action-types.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/store/index.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/component/2.Todo.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/component/1.Counter.js" />
+        <option value="$PROJECT_DIR$/3.正式课第十二周/day1/src/store/reducer/index.js" />
       </list>
     </option>
   </component>
@@ -210,12 +223,12 @@
     <handled-path value="$PROJECT_DIR$/2.正式课第十一周/day2/node_modules" />
     <handled-path value="$PROJECT_DIR$/2.正式课第十一周/day3/node_modules" />
     <handled-path value="$PROJECT_DIR$/2.正式课第十一周/day4/node_modules" />
+    <handled-path value="$PROJECT_DIR$/3.正式课第十二周/day1/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="2" />
     <option name="width" value="1936" />
-    <option name="height" value="1036" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,7 +247,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,78 +269,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2.正式课第十一周" />
+              <option name="myItemId" value="3.正式课第十二周" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript201807" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript201807" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.正式课第十一周" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript201807" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript201807" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.正式课第十一周" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript201807" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript201807" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.正式课第十一周" />
+              <option name="myItemId" value="day1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,11 +296,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\2.正式课第十一周\day4\src\slider" />
-      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\2.正式课第十一周\day4\src" />
-      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\2.正式课第十一周\day3\src" />
-      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\2.正式课第十一周\day3\src\slider\images" />
-      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\2.正式课第十一周\day2\src" />
+      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\3.正式课第十二周\day1\src\store\actions" />
+      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\3.正式课第十二周\day1\src\store\reducer" />
+      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\3.正式课第十二周\day1\src\redux" />
+      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\3.正式课第十二周\day1\src" />
+      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\3.正式课第十二周" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\珠峰培训\课件\2018年第七期\JavaScript201807\3.正式课第十二周\day1\src\redux" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -482,18 +436,19 @@
       <workItem from="1539393770082" duration="12688000" />
       <workItem from="1539411930285" duration="19702000" />
       <workItem from="1539479674287" duration="13020000" />
-      <workItem from="1539498941233" duration="11206000" />
+      <workItem from="1539498941233" duration="11568000" />
+      <workItem from="1539736106281" duration="21511000" />
+      <workItem from="1539768044031" duration="3971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159871000" />
+    <option name="totallyTimeSpent" value="185715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="2" width="1936" height="1036" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1936" height="1030" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.030818278" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24654622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -536,204 +491,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.正式课第十周/day3/10.server-mime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.正式课第十周/day3/9.url模块.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.正式课第十周/day3/11.express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.正式课第十周/day3/12.expres-middleWare.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day1/seven/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day1/seven/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/node_modules/react/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/source/1.复习.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/source/2.循环绑定元素.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/source/4.组件.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/source/3.clock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/source/5.class 定义组件.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/source/6.class 和function组件的区别.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/source/7.组件中的属性.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/source/8.组件中的事件.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/source/9.组件中的状态.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day2/src/source/10.父传子.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/source/1.复习.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/source/2.state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/node_modules/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21825">
-          <caret line="6674" column="26" lean-forward="false" selection-start-line="6674" selection-start-column="26" selection-end-line="6674" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/source/3.子传父.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/node_modules/prop-types/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-598">
-            <caret line="104" column="69" lean-forward="false" selection-start-line="102" selection-start-column="51" selection-end-line="104" selection-end-column="69" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/source/4.属性校验.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/slider1/index.css" />
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/source/5.受控组件.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/source/6.非受控组件.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/source/7.react中的生命周期.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3864">
-          <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/slider1/images/2.jpg" />
     <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/slider/components/Slider.js" />
     <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day3/src/slider1/index.js" />
@@ -763,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,9 +540,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -789,13 +548,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1978">
           <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/component/SliderItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="644">
           <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
           <folding />
         </state>
@@ -803,15 +561,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/component/SliderArrow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="67" />
-          <folding />
+        <state relative-caret-position="184">
+          <caret line="4" column="67" lean-forward="false" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/component/SliderDots.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="782">
           <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding />
         </state>
@@ -819,27 +576,244 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/slider/component/Slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="2944">
           <caret line="67" column="98" lean-forward="false" selection-start-line="67" selection-start-column="98" selection-end-line="67" selection-end-column="98" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/redux/1.认识redux.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="47" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="2162">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.正式课第十一周/day4/src/redux/2.实现createStore.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="368">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/redux/1.实现createStore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/redux/2.实现createStore订阅.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/redux/3.counter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/redux/4.react的counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store-counter/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/redux/redux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store-counter/action-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store-counter/actions/1.counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store-counter/reducer/1.counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store-todo/action-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store-todo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store-todo/reducer/1.todos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store-todo/actions/1.todos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/source/2.Todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/source/1.Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/redux-store/store-todo/action-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/redux-store/store-counter/action-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/action-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/reducer/todos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/actions/todos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/component/2.Todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/actions/counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/component/1.Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/redux-store/redux/redux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/reducer/counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.正式课第十二周/day1/src/store/reducer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#54#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

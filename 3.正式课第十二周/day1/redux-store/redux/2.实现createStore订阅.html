@@ -12,22 +12,31 @@
 <script>
     let title = document.getElementById("title");
     let content = document.getElementById("content");
-    const CHANGE_TITLE_TEXT = "C+HANGE_TITLE_TEXT";
+    const CHANGE_TITLE_TEXT = "CHANGE_TITLE_TEXT";
     function createStore(reducer) {
         let  state;
-        // 获取状态
-        // 在createStore 返回状态，需要将状态深拷贝一次；
         let getState = ()=>JSON.parse(JSON.stringify(state));
-        // 改变状态；
+        let listeners = [];
+        // 用于订阅函数；订阅的函数会在dispatch时执行订阅这些方法；
+        // subscribe的返回值是取消当前订阅的方法；需要return一个函数；
+        let subscribe = (fn)=>{
+           if(typeof fn==="function"){
+               listeners.push(fn);
+           }
+            return ()=>{
+                listeners=listeners.filter(item=>item!==fn);
+            }
+        };
         function dispatch(action) {
             state = reducer(state,action);
+            // 当dispatch触发时，循环订阅数组中的所有的方法；挨个执行；
+            listeners.forEach((item,index)=>{
+                item();
+            })
         }
-        // 初始化store中的状态；
         dispatch({});
-        return {getState,dispatch}
+        return {getState,dispatch,subscribe}
     }
-    // 管理员；
-    // 1.初始化状态
     let initState = {
         title:{color:"red",text:"今天周日"},
         content:{color:"blue",text:"周日要学习"}
@@ -44,7 +53,6 @@
         title.innerHTML = store.getState().title.text;
         title.style.color = store.getState().title.color;
     }
-    // 渲染内容
     function renderContent() {
         content.innerHTML = store.getState().content.text;
         content.style.color = store.getState().content.color;
@@ -53,11 +61,18 @@
         renderTitle();
         renderContent();
     }
+    let off = store.subscribe(renderApp);
     setTimeout(function () {
         store.dispatch({type:CHANGE_TITLE_TEXT,text:"今天天气好晴朗"});
-        renderApp();
+        //renderApp();// 让视图重新渲染；
     },2000)
     renderApp();
+    // 1. 调用dispatch的目的就是为了修改状态；最终目的就是修改视图；
+    // 当改变数据时，会默认调用方法；给dispatch执行时订阅一个方法；当触发dispatch时，让订阅的方法执行；
+
+    ///on  run  off
+
+    // 变量提升作用域、面向对象=====> 面向对象深入、call\apply\bind \商品排序====>  封装、JS盒子模型、正则、瀑布流====> ajax\动画、同异步、es6[Set]\轮播图==> 事件、事件传播机制、事件委托、动画、发布订阅===> 移动端 H5  CSS3  动画 、移动端事件====> ajax   ===>  vue===node
 
 </script>
 </body>
