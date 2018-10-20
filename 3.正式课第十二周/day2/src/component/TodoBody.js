@@ -3,10 +3,10 @@ import {connect} from "react-redux";
 import actions from "../store/actions"
 class TodoBody extends React.Component{
     filterTodos=()=>{
-        // 获取当前最新的state中的types；根据types进行过滤；
+            // 获取当前最新的state中的types；根据types进行过滤；
         let todos;
         if(this.props.types==="all"){
-            todos = this.props.todos;
+        todos = this.props.todos;
         }
         if(this.props.types==="finish"){
             todos = this.props.todos.filter((item)=>item.isSelected)
