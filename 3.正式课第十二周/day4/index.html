@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //  localstorage  session  cookie
+    //  跨域；
+    //  同步异步 ： 事件循环机制；
+    // 事件循环机制： 浏览器在解析代码时，会形成两个队列，一个是主任务队列，一个等待任务队列；当浏览器遇到同步代码时，会立即执行；当遇到异步时，那么会将此任务放到等待任务队列中；当主任务队列执行完毕，那么将等待任务队列中的到达时间的任务拿到主任务队列中执行；
+
+  /*  setTimeout(function () {
+        console.log(5);
+    },0)
+    let  pro = new  Promise((resolve,reject)=>{
+        console.log(1);
+        resolve();
+    }).then(function () {
+        console.log(2);
+    },function () {
+        console.log(3);
+    });
+    console.log(4);*/
+
+    // 宏任务  ： setTimeout  setInterval  setImmediate
+    // promise 的then  catch  finally   async  await都是微任务；
+    // 如果宏任务和微任务都满足到达时间；那么先执行微任务；
+    function a() {
+        console.log(2);
+    }
+    setTimeout(function () {
+        console.log(100);
+    },0);
+    async function fn() {
+        console.log(1);
+         await a();
+        console.log(3);
+    }
+    // async中await函数下面的是异步的；并且是微任务；
+    // async 函数的返回值是一个promise，可以再次调用then；
+    // console.log(4);// 1---2---4-- 3
+    // axios  : 基于promise封装的ajax;
+    // axios 拦截：
+</script>
+</body>
+</html>
