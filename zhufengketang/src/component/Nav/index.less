@@ -1,0 +1,25 @@
+.nav-home{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width:100%;
+  border-top:1px solid #cccccc;
+  height:53px;
+  display: flex;
+  a{
+    display: flex;
+    flex:1;// 每个占一份；
+    justify-content: center;// 竖直居中
+    flex-direction: column;// 竖直排列
+    align-items: center;// 横向居中
+    text-decoration: none;
+    font-weight: 400;
+    &.active{
+      color:blue;
+    }
+  }
+  i{
+    font-size: 20px;
+  }
+
+}

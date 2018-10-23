@@ -1,0 +1,85 @@
+// home-header 的样式：
+*{
+  margin:0;
+  padding:0;
+}
+.home-header{
+   position: fixed;
+   top:0;
+   left:0;
+   width:100%;
+   height:56px;
+   line-height: 56px;
+   background: black;
+   .header-content{
+     width:95%;
+     height:56px;
+     margin:0 auto;
+     img{
+       width:40%;
+       margin-top:7px;
+     }
+     i{
+       color:#fff;
+       float:right;
+     }
+     .header-course{
+       position: fixed;
+       top:56px;
+       left:0;
+       list-style: none;
+       width:100%;
+       background: #000000;
+       li{
+         width:100%;
+         color:#fff;
+         height:50px;
+         line-height: 50px;
+         border-top:1px solid #eeeeee;
+         text-align: center;
+       }
+     }
+   }
+}
+
+// 首页的主体部分
+.main-content{
+  position: absolute;
+  top:56px;
+  width:100%;
+  left:0;
+  overflow-y: scroll;
+  .home-swipe{
+    width:100%;
+    height:160px;
+    position: relative;
+    img{
+      width:100%;
+      height:160px;
+      display: block;
+    }
+    .focus{
+      position: absolute;
+      bottom:10px;
+      width:100%;
+      margin:auto;
+      z-index:100;
+      text-align: center;
+      span{
+        display: inline-block;
+        width:10px;
+        height:10px;
+        background: #eeeeee;
+        border-radius: 50%;
+        margin-left: 5px;
+        &.active{
+          background: orange;
+        }
+      }
+    }
+
+  }
+}
+/*.react-swipe-container>div{
+  width: 100% !important;
+}*/

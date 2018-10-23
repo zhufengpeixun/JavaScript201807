@@ -1,3 +1,3 @@
-/**
- * Created by 39753 on 2018/10/21.
- */
+export const CHANGE_TYPES= "CHANGE_TYPES";
+// 设置轮播图的数据
+export const SET_SLIDERS= "SET_SLIDERS";
