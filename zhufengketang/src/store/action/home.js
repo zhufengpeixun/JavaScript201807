@@ -1,5 +1,5 @@
 import * as Types from "../action-types";
-import {getSliders} from "../../api/home.js"
+import {getSliders,getLesson} from "../../api/home.js"
 export default {
     changeCurrentType(val){
         return {type:Types.CHANGE_TYPES,val}
@@ -22,6 +22,21 @@ export default {
                     payload:sliders
                 })
             });
+        }
+    },
+    getLesson(){
+        return function(dispatch,getState){
+            let {currentTypes,lessons:{offset,limit}} = getState().home;
+            console.log("home")
+            getLesson(currentTypes,offset,limit).then(payload=>{
+                //console.log(payload);
+                // 去store中修改
+                //dispatch({})
+                dispatch({
+                    type:Types.SET_LESSONS,
+                    payload
+                })
+            })
         }
     }
 

@@ -26,7 +26,8 @@ let lessons = require('./mock/lessons');
 // http://localhost:3000/getLessons/vue?offset=0&limit=5
 app.get('/getLessons/:category',function(req,res){
   let category = req.params.category;// all react vue 当前的分类
-  let {offset,limit} = req.query;
+    // http://...getLessons/all?offset=0&limit=5
+  let {offset,limit} = req.query;// 问号传参
   offset = isNaN(offset)?0:parseInt(offset);//起始的索引
   limit = isNaN(limit)?5:parseInt(limit);//每页的条数
   let list = JSON.parse(JSON.stringify(lessons));//深度克隆lessons
@@ -46,7 +47,8 @@ let users = [];
 app.post('/reg',function(req,res){
   let user = req.body;//得到请求体 body-parser中间件
   users.push(user);
-  res.json({
+    console.log(users);
+    res.json({
     success:'用户注册成功!'
   });
 });

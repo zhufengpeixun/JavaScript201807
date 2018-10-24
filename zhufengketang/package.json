@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"yarn run dev",
-    "dev":"webpack-dev-server --port 9000 --config webpack.config.js",
-    "build":"webpack --config webpack.config.js"
+    "start": "yarn run dev",
+    "dev": "webpack-dev-server --port 9000 --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -34,10 +34,12 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
+    "history": "^4.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
     "react-swipe": "^5.1.1",
     "react-transition-group": "^2.2.1",
     "redux": "^3.7.2",
