@@ -6,7 +6,7 @@ import action from "../../store/action/sesson"
     render(){
        // console.log(this.props);
         return <div className="alert">
-            {this.props.success?<div className="success">{this.props.success}</div>:<div className="error">{this.props.error}</div>}
+            {this.props.a?<div className="success">{this.props.a}</div>:null}
         </div>
 
     }

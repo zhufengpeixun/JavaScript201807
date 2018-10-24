@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import "./index.less"
 import {connect} from "react-redux";
 import action from "../../store/action/sesson"
-import Alert from "../../component/Alert/Alert"
+import Alert from "../../component/AlertReg/Alert"
 class Login extends React.Component{
     handleReg =()=>{
         let username = this.username.value;

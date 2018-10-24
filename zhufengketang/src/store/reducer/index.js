@@ -32,14 +32,14 @@ function home(state=initState,action) {
 let  sessonState = {
     success :"",
     error:"",
-    reg:""
+    a:""
 }
 function sesson(state=sessonState,action){
    switch (action.type){
        case Types.SET_LOGIN:
            return {...state,...action.val}
        case Types.SET_REG:
-           return {...state,reg:action.val.success}
+           return {...state,a:action.val.success}
    }
     return state;
 }
